@@ -19,7 +19,7 @@
                     $_SESSION['user'] = get_user_with_login($_POST['username'], $_POST['password'], false);
                 }
 
-                header('Location: pages/tmp.html');
+                header('Location: pages/home.php');
             } else {
                 $error = "Identifiant ou mot de passe incorrect";
             }
